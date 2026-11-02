@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jariodon-longctx_jd118"
+name = "jariodon-mixed_precision_overflow_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告长上下文优化工程师·混合精度的溢出与下溢相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://jariodon.github.io"
-Repository = "https://github.com/jariodon/longctx_jd118"
-Issues = "https://github.com/jariodon/longctx_jd118/issues"
+Repository = "https://github.com/jariodon/mixed_precision_overflow_pattern_locate"
+Issues = "https://github.com/jariodon/mixed_precision_overflow_pattern_locate/issues"
 
 [project.scripts]
-longctx_jd118 = "longctx_jd118:main"
+mixed_precision_overflow_pattern_locate = "mixed_precision_overflow_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["longctx_jd118"]
+py-modules = ["mixed_precision_overflow_pattern_locate"]
